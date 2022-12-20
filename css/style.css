@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding:0;
+    /* box-sizing: border-box; */
+}
+
+
+/* in general */
+span {
+    font-weight:bold;
+    font-family: "Montserrat" , sans-serif;
+}
+.container-fluid {
+    padding:7% 15% 3.5%;
+}
+
+/* hero section */
+#header-section {
+    background-color: #2B3A55;
+    color:#F2E5E5;
+    line-height: 2;
+}
+.row {
+    margin-bottom:10%;
+}
+#header-section .container-fluid {
+    padding:2% 10% 3.5%;
+}
+.hero-title {
+    width:60%;
+    margin:0 auto;
+    padding-top:4%;
+    /* border:1px solid; */
+}
+.profile-img {
+    width:25%;
+    border-radius: 100%;
+    padding: 0 0 4%;
+}
+.hero-title .hero-title-heading {
+    font-family: "Montserrat" , sans-serif;
+    font-size:3rem;
+    font-weight:600;
+    padding:2% 0;
+    /* color:#F2E5E5; */
+    color:white;
+}
+
+.hero-title .hero-title-text {
+    font-family: "Montserrat-Thin";
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+}
+/* navbar */
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    color:#E8C4C4;
+    font-size:2rem;
+    letter-spacing: 1.5px;
+
+}
+.navbar-brand:hover {
+    color:#E8C4C4;
+}
+
+.nav-link {
+    color:#E8C4C4;
+}
+.nav-link:hover {
+    color:white;
+}
+
+
+/* Experience Section */
+.experience-container {
+    padding:4% 5% 0;
+}
+.experience-container h2 {
+    font-family: "Montserrat" , sans-serif;
+    font-weight:800;
+    font-size:2.5rem;
+}
+/* .experience-container .container-fluid{
+    border:1px solid;
+} */
+.experience-main-text {
+    text-align: left;
+    margin-bottom:10px;
+}
+
+
+.experience-main-text h3 , h4 {
+    font-size:1.2rem;
+    font-family: "Montserrat" , sans-serif;
+}
+.experience-main-text h3 {
+    font-size:1.7rem;
+    font-weight:600;
+}
+.year-col {
+    text-align: left;
+}
+.experience-main-text p {
+
+    color: grey;
+}
+.year-sm {
+    display: none;
+}
+
+/* skill-section */
+#skill-section {
+    background-color:#CE7777;
+    color: white;
+    font-family: "Montserrat" , sans-serif;
+    padding:1% 2%;
+}
+
+.skill-heading {
+    font-size:2.5rem;
+    color:white;
+    font-weight: 800;
+    line-height: 2;
+    letter-spacing: 1.5px;
+}
+.skill-img {
+    width:40%;
+    margin-bottom:15px;
+    filter: invert(100%);
+}
+
+.skill-item {
+    text-align:center;
+    line-height: 2;
+    padding:2% 3%;
+    /* border:1px solid; */
+}
+.skill-item h3{
+    color:white;
+    letter-spacing: 1.3px;
+}
+
+
+/* Footer */
+#footer-section {
+    padding:3% 15% 0 15%;
+}
+.social-icon {
+    height: 25px;
+    margin:0 10px 10px;
+}
+#footer-section h4 {
+    line-height: 1.5;
+}
+
+
+/* Mobile adaptaiton */
+@media (max-width:600px) 
+{
+  .navbar-brand {
+    font-size:1.2rem;
+  }
+  .hero-title {
+    width:100%;
+    padding:10% 3%;
+  }
+  .hero-title h3 {
+    font-size:1rem;
+  }
+
+  .year-lg{
+    display: none;
+  }
+  .year-sm{
+    display: block;
+  }
+  
+  .skill-item {
+    margin-bottom:20px;
+  }
+  .skill-img{
+    width:30%;
+  }
+}
+
+@media (max-width:400px)
+{
+    .navbar-brand {
+        font-size:1rem;
+    }
+    .hero-title .hero-title-heading
+    {
+        font-size: 1.5rem;
+    }
+    .hero-title .hero-title-text {
+        font-size: 0.8rem;
+    }
+
+    #experience-section h2 
+    {
+        font-size:1.5rem;
+    }
+
+    .experience-main-text h3 {
+        font-size:1.2rem;
+    }
+    .experience-main-text h4 {
+        font-size: 0.8rem;
+    }
+    .experience-main-text li {
+        font-size: 0.8rem;
+    }
+
+    .skill-heading {
+        font-size:1.5rem;
+    }
+    #skill-section h4 {
+        font-size:1rem;
+    }
+}
